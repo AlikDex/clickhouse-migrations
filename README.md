@@ -1,7 +1,6 @@
 ### ClickhouseMigrationsBundle
 
-![psalm level](https://shepherd.dev/github/mavlitov98/clickhouse-migrations/level.svg)
-![psalm type coverage](https://shepherd.dev/github/mavlitov98/clickhouse-migrations/coverage.svg)
+Maintained fork of [mavlitov98/clickhouse-migrations](https://github.com/mavlitov98/clickhouse-migrations) — allows `fp4php/functional` ^6.0 (PHP 8.4 deprecation fixes).
 
 This bundle integrates the Clickhouse Migrations into Symfony applications. Database migrations help you version the changes in your database schema and apply them in a predictable way on every server running the application.
 
@@ -10,7 +9,7 @@ This bundle integrates the Clickhouse Migrations into Symfony applications. Data
 
 
 ```bash
-composer require mavlitov98/clickhouse-migrations
+composer require alikdex/clickhouse-migrations
 ```
 
 If you don't use [Symfony Flex](https://symfony.com/components/Symfony%20Flex), you must enable the bundle manually in the application:

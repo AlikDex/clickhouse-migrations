@@ -1,12 +1,12 @@
 {
-  "name": "mavlitov98/clickhouse-migrations",
+  "name": "alikdex/clickhouse-migrations",
   "type": "symfony-bundle",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "license": "MIT",
   "require": {
     "php": "^8.1",
-    "fp4php/functional": "^5.2",
+    "fp4php/functional": "^5.2 || ^6.0",
     "smi2/phpclickhouse": "^1.5"
   },
   "require-dev": {
